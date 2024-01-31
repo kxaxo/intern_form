@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>internship form</title>
+</head>
+<body>
+    <h1>แบบฟอร์มในการฝึกงาน</h1>
+    <section class="form-container">
+        <form action="/" method="post" enctype="multipart/form-data">
+            <div class="input-form">
+                <label>ชื่อ-นามสกุล</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="input-form">
+                <label>อีเมล</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="input-form">
+                <label>มหาวิทยาลัย</label>
+                <input type="text" name="univesity" required>
+            </div>
+            <div class="input-form">
+                <label>สาขาและภาควิชา</label>
+                <input type="text" name="department" required>
+            </div>
+            <div class="input-form">
+                <label>เรซูเม่</label>
+                <input type="file" accept=".pdf" name="resume_pdf" required>
+            </div>
+            <button>ส่งแบบฟอร์ม</button>
+        </form>
+    </section>
+</body>
+</html>
